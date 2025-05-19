@@ -909,20 +909,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const hint = document.querySelector(".gallery-hint");
-
-  if (hint) {
-    const hideHint = () => {
-      hint.style.display = "none";
-      window.removeEventListener("touchstart", hideHint);
-    };
-
-    window.addEventListener("touchstart", hideHint, { passive: true });
-  }
-});
-</script>
 
 
 </body>
