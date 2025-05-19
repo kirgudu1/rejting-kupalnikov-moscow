@@ -2308,4 +2308,21 @@ h1 {
 /* === КОНЕЦ: Вручную добавленные ссылки в меню === */
 
 
+/* === СТАРТ: Подсказка для скролла на мобильных === */
+.gallery-hint {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 12px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .gallery-hint {
+    display: block;
+  }
+}
+/* === КОНЕЦ: Подсказка для скролла === */
+
+
 
